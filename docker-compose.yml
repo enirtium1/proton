@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  product-service:
+    image: proton-product-service:1.0
+    build: ./product-service
+    ports:
+      - "8080:8080"
+
